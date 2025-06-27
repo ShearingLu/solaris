@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: smartchannel
+payment:
+  ipAddress:
+
+yxe:
+  url: 'http://47.104.220.122:18500'
+  payKey: 'ff604dec92344462b985a3ec02c1ad4a'
+  paySecret: '5cc8fe60d0814a63a79f2eac7a96afc6'
+  platMerchant: 'DEV88882019111310001145'

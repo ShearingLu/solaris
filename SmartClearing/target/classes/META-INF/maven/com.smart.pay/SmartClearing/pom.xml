@@ -1,0 +1,153 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.smart.pay</groupId>
+  <artifactId>SmartClearing</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.5.7.RELEASE</version>
+	</parent>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+
+		<spring-cloud.version>Dalston.SR4</spring-cloud.version>
+		<spring-boot-starter-log4j.version>1.3.8.RELEASE</spring-boot-starter-log4j.version>
+		<spring-cloud-starter-zuul.version>1.3.5.RELEASE</spring-cloud-starter-zuul.version>
+		<spring-cloud-starter-eureka.version>1.3.5.RELEASE</spring-cloud-starter-eureka.version>
+
+		<gson.version>2.8.2</gson.version>
+		<json.version>20170516</json.version>
+		<druid.version>1.1.6</druid.version>
+		<fastjson.version>1.2.41</fastjson.version>
+		<commons-codec.version>1.11</commons-codec.version>
+		<exec-maven-plugin.version>1.6.0</exec-maven-plugin.version>
+		<git-commit-id-plugin.version>2.2.3</git-commit-id-plugin.version>
+		<versions-maven-plugin.version>2.2</versions-maven-plugin.version>
+		<build-helper-maven-plugin.version>3.0.0</build-helper-maven-plugin.version>
+
+
+		<maven-antrun-plugin.version>1.8</maven-antrun-plugin.version>
+		<maven-assembly-plugin.version>3.1.0</maven-assembly-plugin.version>
+		<maven-clean-plugin.version>3.0.0</maven-clean-plugin.version>
+		<maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
+		<maven-dependency-plugin.version>3.0.2</maven-dependency-plugin.version>
+
+		<maven-deploy-plugin.version>2.8.2</maven-deploy-plugin.version>
+		<maven-eclipse-plugin.version>2.10</maven-eclipse-plugin.version>
+		<maven-enforcer-plugin.version>1.4.1</maven-enforcer-plugin.version>
+		<maven-failsafe-plugin.version>2.20.1</maven-failsafe-plugin.version>
+		<maven-install-plugin.version>2.5.2</maven-install-plugin.version>
+
+		<maven-invoker-plugin.version>3.0.1</maven-invoker-plugin.version>
+		<maven-help-plugin.version>2.2</maven-help-plugin.version>
+		<maven-jar-plugin.version>3.0.2</maven-jar-plugin.version>
+		<maven-javadoc-plugin.version>2.10.4</maven-javadoc-plugin.version>
+		<maven-resources-plugin.version>3.0.2</maven-resources-plugin.version>
+
+		<maven-shade-plugin.version>3.1.0</maven-shade-plugin.version>
+		<maven-site-plugin.version>3.6</maven-site-plugin.version>
+		<maven-source-plugin.version>3.0.1</maven-source-plugin.version>
+		<maven-surefire-plugin.version>2.20.1</maven-surefire-plugin.version>
+		<maven-war-plugin.version>3.2.0</maven-war-plugin.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.smart.pay</groupId>
+			  <artifactId>SmartCommon</artifactId>
+			  <version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-eureka</artifactId>
+			<version>${spring-cloud-starter-eureka.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
+			<version>${druid.version}</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.json-lib</groupId>
+			<artifactId>json-lib</artifactId>
+			<version>2.4</version>
+			<classifier>jdk15</classifier>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>3.9</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.9</version>
+        </dependency>
+	</dependencies>
+
+	<build>
+	    <sourceDirectory>src/main/java </sourceDirectory>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+			</resource>
+		</resources>
+	    <plugins>
+	      <plugin>
+	      	<groupId>org.springframework.boot</groupId>
+	        <artifactId>spring-boot-maven-plugin</artifactId>
+	        <configuration>
+	        <outputDirectory>../deploy</outputDirectory>
+	        </configuration>
+	      </plugin>
+	      
+	      <plugin>
+	      	<groupId>org.apache.maven.plugins</groupId>
+	        <artifactId>maven-jar-plugin</artifactId>
+	        <configuration>
+	        <outputDirectory>../deploy</outputDirectory>
+	        </configuration>
+	      </plugin>
+	    </plugins>
+  	</build>
+</project>

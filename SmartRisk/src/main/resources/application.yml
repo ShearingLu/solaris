@@ -1,0 +1,12 @@
+server:
+  port: 0
+
+
+
+
+#logging:
+#    level:
+#        tk.mybatis: DEBUG
+
+
+#spring.jpa.show-sql: true

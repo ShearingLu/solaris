@@ -1,0 +1,40 @@
+info:
+  component: Zuul Server
+
+endpoints:
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+  health:
+    sensitive: false
+
+
+
+zuul:
+  ignoredServices: "*"
+  routes:
+    smartmerchant:
+      path: /smartmerchant/**
+      stripPrefix: false
+      serviceId: smartmerchant
+    smartchannel:
+      path: /smartchannel/**
+      stripPrefix: false
+      serviceId: smartchannel      
+    smartpayment:
+      path: /smartpayment/**
+      stripPrefix: false
+      serviceId: smartpayment
+    smartrisk:
+      path: /smartrisk/**
+      stripPrefix: false
+      serviceId: smartrisk
+    smartclearing:
+      path: /smartclearing/**
+      stripPrefix: false
+      serviceId: smartclearing
+    smarttimer:
+      path: /smarttimer/**
+      stripPrefix: false
+      serviceId: smarttimer

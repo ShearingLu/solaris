@@ -1,0 +1,44 @@
+server:
+  port: 80
+  tomcat:
+    maxThreads:  2048
+    maxPostSize: 0
+
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+    metadataMap:
+      instanceId: ${vcap.application.instance_id:${spring.application.name}:${spring.application.instance_id:${random.value}}}
+  client:
+    registryFetchIntervalSeconds: 5
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/ 
+
+
+hystrix.command.smartclearing.execution.isolation.strategy :                      THREAD 
+hystrix.command.smartclearing.execution.isolation.thread.timeoutInMilliseconds:   360000 
+hystrix.command.smartmerchant.execution.isolation.strategy :                      THREAD 
+hystrix.command.smartmerchant.execution.isolation.thread.timeoutInMilliseconds:   360000 
+hystrix.command.smartpayment.execution.isolation.strategy :                      THREAD 
+hystrix.command.smartpayment.execution.isolation.thread.timeoutInMilliseconds:   360000 
+hystrix.command.smartrisk.execution.isolation.strategy :                      THREAD 
+hystrix.command.smartrisk.execution.isolation.thread.timeoutInMilliseconds:   360000
+hystrix.command.default.execution.isolation.strategy:                      THREAD
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds:  300000 
+hystrix.command.default.execution.isolation.thread.maxConcurrentRequests:  1024
+hystrix.command.default.fallback.isolation.thread.maxConcurrentRequests:   512
+
+
+hystrix.threadpool.default.coreSize: 512
+hystrix.threadpool.default.maximumSize: 512
+hystrix.threadpool.default.maxQueueSize: -1
+hystrix.threadpool.default.allowMaximumSizeToDivergeFromCoreSize: false
+
+hystrix.threadpool.RibbonCommand.coreSize: 1024
+hystrix.threadpool.RibbonCommand.maximumSize: 1024
+hystrix.threadpool.RibbonCommand.maxQueueSize: -1
+hystrix.threadpool.RibbonCommand.allowMaximumSizeToDivergeFromCoreSize: true
+
+
+ribbon.ReadTimeout: 180000                      # Read timeout used by Apache HttpClient
+ribbon.ConnectTimeout: 180000                   # Connect timeout used by Apache HttpClient

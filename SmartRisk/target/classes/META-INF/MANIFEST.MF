@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: SmartRisk
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Lenovo
+Implementation-Vendor-Id: com.smart.pay
+Build-Jdk: 1.8.0_181
+Implementation-URL: http://projects.spring.io/spring-boot/SmartRisk/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

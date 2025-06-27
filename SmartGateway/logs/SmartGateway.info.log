@@ -1,0 +1,34 @@
+11-03 00:04:56.962[I][executor-0][ConfigClusterResolver                   ][  43] →→→ Resolving eureka endpoints via configuration
+11-03 00:09:56.975[I][executor-0][ConfigClusterResolver                   ][  43] →→→ Resolving eureka endpoints via configuration
+11-03 00:14:56.977[I][executor-0][ConfigClusterResolver                   ][  43] →→→ Resolving eureka endpoints via configuration
+11-03 00:19:56.978[I][executor-0][ConfigClusterResolver                   ][  43] →→→ Resolving eureka endpoints via configuration
+11-03 00:24:56.981[I][executor-0][ConfigClusterResolver                   ][  43] →→→ Resolving eureka endpoints via configuration
+11-03 00:29:56.982[I][executor-0][ConfigClusterResolver                   ][  43] →→→ Resolving eureka endpoints via configuration
+11-03 00:34:56.985[I][executor-0][ConfigClusterResolver                   ][  43] →→→ Resolving eureka endpoints via configuration
+11-03 00:39:56.986[I][executor-0][ConfigClusterResolver                   ][  43] →→→ Resolving eureka endpoints via configuration
+11-03 00:44:56.987[I][executor-0][ConfigClusterResolver                   ][  43] →→→ Resolving eureka endpoints via configuration
+11-03 00:49:56.988[I][executor-0][ConfigClusterResolver                   ][  43] →→→ Resolving eureka endpoints via configuration
+11-03 00:54:56.993[I][executor-0][ConfigClusterResolver                   ][  43] →→→ Resolving eureka endpoints via configuration
+11-03 00:57:13.223[I][-80-exec-4][AuthenticationHeaderFilter              ][  83] →→→ ====AuthenticationHeaderFilter.shouldFilter - httpmethod: (POST)
+11-03 00:57:13.224[I][-80-exec-4][AuthenticationHeaderFilter              ][  84] →→→ ====AuthenticationHeaderFilter.shouldFilter - url
+11-03 00:57:13.224[W][-80-exec-4][AuthenticationHeaderFilter              ][ 101] →→→ [0:0:0:0:0:0:0:1][POST][/smartclearing/order/markup/online                 ][Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0]
+11-03 00:57:13.232[I][-80-exec-4][AuthenticationHeaderFilter              ][ 110] →→→ Token: [eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJUb25nUWkiLCJleHAiOjE1NDE0NzgyMTYsIm1lcmNoYW50SWQiOiIxNTY0NDEzMjMyIn0.274ChGty3MflKMKfEJSZxAEs9VxuIbTiHKP_IvCbl-AHURZV6KR8jgP6R2pl1m-r4Nh_oRnLUcPcvECMjQKpww]
+11-03 00:57:13.760[I][-80-exec-4][AuthenticationHeaderFilter              ][ 114] →→→ claims is:{sub=TongQi, exp=1541478216, merchantId=1564413232}
+11-03 00:57:13.788[I][-80-exec-4][AnnotationConfigApplicationContext      ][ 583] →→→ Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@61dd4e8d: startup date [Sat Nov 03 00:57:13 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@674658f7
+11-03 00:57:13.945[I][-80-exec-4][AutowiredAnnotationBeanPostProcessor    ][ 155] →→→ JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+11-03 00:57:14.388[I][-80-exec-4][ChainedDynamicProperty                  ][ 115] →→→ Flipping property: smartclearing.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+11-03 00:57:14.441[I][-80-exec-4][ShutdownEnabledTimer                    ][  58] →→→ Shutdown hook installed for: NFLoadBalancer-PingTimer-smartclearing
+11-03 00:57:14.518[I][-80-exec-4][BaseLoadBalancer                        ][ 192] →→→ Client: smartclearing instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=smartclearing,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+11-03 00:57:14.531[I][-80-exec-4][DynamicServerListLoadBalancer           ][ 214] →→→ Using serverListUpdater PollingServerListUpdater
+11-03 00:57:14.599[I][-80-exec-4][ChainedDynamicProperty                  ][ 115] →→→ Flipping property: smartclearing.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+11-03 00:57:14.604[I][-80-exec-4][DynamicServerListLoadBalancer           ][ 150] →→→ DynamicServerListLoadBalancer for client smartclearing initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=smartclearing,current list of Servers=[DESKTOP-T8UUSPI:smartclearing:9ed253203bf8658c9b8b79f4c999a6ce],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:DESKTOP-T8UUSPI:smartclearing:9ed253203bf8658c9b8b79f4c999a6ce;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@30eb2a2a
+11-03 00:57:15.539[I][tUpdater-0][ChainedDynamicProperty                  ][ 115] →→→ Flipping property: smartclearing.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+11-03 00:59:56.996[I][executor-0][ConfigClusterResolver                   ][  43] →→→ Resolving eureka endpoints via configuration
+11-03 01:00:48.428[I][-80-exec-8][AuthenticationHeaderFilter              ][  83] →→→ ====AuthenticationHeaderFilter.shouldFilter - httpmethod: (POST)
+11-03 01:00:48.429[I][-80-exec-8][AuthenticationHeaderFilter              ][  84] →→→ ====AuthenticationHeaderFilter.shouldFilter - url
+11-03 01:00:48.429[W][-80-exec-8][AuthenticationHeaderFilter              ][ 101] →→→ [0:0:0:0:0:0:0:1][POST][/smartclearing/order/markup/online                 ][Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0]
+11-03 01:00:48.430[I][-80-exec-8][AuthenticationHeaderFilter              ][ 110] →→→ Token: [eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJUb25nUWkiLCJleHAiOjE1NDE0NzgyMTYsIm1lcmNoYW50SWQiOiIxNTY0NDEzMjMyIn0.274ChGty3MflKMKfEJSZxAEs9VxuIbTiHKP_IvCbl-AHURZV6KR8jgP6R2pl1m-r4Nh_oRnLUcPcvECMjQKpww]
+11-03 01:00:48.432[I][-80-exec-8][AuthenticationHeaderFilter              ][ 114] →→→ claims is:{sub=TongQi, exp=1541478216, merchantId=1564413232}
+11-03 01:04:56.997[I][executor-0][ConfigClusterResolver                   ][  43] →→→ Resolving eureka endpoints via configuration

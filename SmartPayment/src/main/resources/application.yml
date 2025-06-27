@@ -1,0 +1,41 @@
+server:
+  port: 0
+  active: dev
+
+
+
+#logging:
+#    level:
+#        tk.mybatis: DEBUG
+
+
+#spring.jpa.show-sql: true
+#spring:
+#  redis:
+#    database: 0
+#    port: 6379
+#    password:  
+#    host: 106.14.1.229
+#    timeout: 3000
+#    pool:
+#      max-active: 8
+#      max-idle: 8
+#      min-idle: 0
+#      max-wait: -1
+#  rabbitmq:
+#    host: 106.14.1.229
+#    port: 5672
+#    username: happypay
+#    password: 123456
+#    publisher-confirms: true
+#    cache:
+#      channel:
+#        size: 20
+
+        
+#        
+#rabbit:
+#  exchange:
+#    callback: callbackexchange
+#  queue:
+#    callback: callbackqueue

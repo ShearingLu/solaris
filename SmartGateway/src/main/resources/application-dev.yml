@@ -1,0 +1,27 @@
+server:
+  port: 80
+  tomcat:
+    maxThreads:  16
+    maxPostSize: 0
+
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+    metadataMap:
+      instanceId: ${vcap.application.instance_id:${spring.application.name}:${spring.application.instance_id:${random.value}}}
+  client:
+    registryFetchIntervalSeconds: 5
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/ 
+
+
+hystrix.command.user.execution.isolation.strategy :   THREAD
+hystrix.command.facade.execution.isolation.strategy : THREAD
+hystrix.command.default.execution.isolation.strategy: THREAD
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 60000 # This property sets the time in milliseconds after which the caller will observe a timeout and walk away from the command execution. Hystrix marks > the HystrixCommand as a TIMEOUT, and performs fallback logic.
+hystrix.threadpool.default.coreSize: 16
+hystrix.threadpool.RibbonCommand.coreSize: 16
+
+
+ribbon.ReadTimeout: 60000                      # Read timeout used by Apache HttpClient
+ribbon.ConnectTimeout: 60000                   # Connect timeout used by Apache HttpClient

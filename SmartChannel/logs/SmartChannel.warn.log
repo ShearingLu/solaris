@@ -1,0 +1,21 @@
+10-12 16:40:22.823[W][      main][URLConfigurationSource                  ][ 121] →→→ No URLs will be polled as dynamic configuration sources.
+10-12 16:40:22.838[W][      main][URLConfigurationSource                  ][ 121] →→→ No URLs will be polled as dynamic configuration sources.
+10-12 16:49:34.889[W][      main][URLConfigurationSource                  ][ 121] →→→ No URLs will be polled as dynamic configuration sources.
+10-12 16:49:34.896[W][      main][URLConfigurationSource                  ][ 121] →→→ No URLs will be polled as dynamic configuration sources.
+10-12 20:32:35.834[W][Executor-0][RetryableEurekaHttpClient               ][ 129] →→→ Request execution failed with message: java.net.ConnectException: Connection refused: connect
+10-12 20:32:37.794[W][Executor-0][RetryableEurekaHttpClient               ][ 129] →→→ Request execution failed with message: java.net.ConnectException: Connection refused: connect
+10-12 20:32:37.839[W][Executor-0][RetryableEurekaHttpClient               ][ 129] →→→ Request execution failed with message: java.net.ConnectException: Connection refused: connect
+10-12 20:32:39.800[W][Executor-0][RetryableEurekaHttpClient               ][ 129] →→→ Request execution failed with message: java.net.ConnectException: Connection refused: connect
+10-12 20:32:44.879[W][Executor-0][RetryableEurekaHttpClient               ][ 129] →→→ Request execution failed with message: java.net.ConnectException: Connection refused: connect
+10-12 20:32:51.811[W][Executor-0][RetryableEurekaHttpClient               ][ 129] →→→ Request execution failed with message: java.net.ConnectException: Connection refused: connect
+10-12 20:32:51.887[W][Executor-0][RetryableEurekaHttpClient               ][ 129] →→→ Request execution failed with message: java.net.ConnectException: Connection refused: connect
+10-12 20:32:58.914[W][Executor-0][RetryableEurekaHttpClient               ][ 129] →→→ Request execution failed with message: java.net.ConnectException: Connection refused: connect
+10-12 20:35:36.735[W][      main][URLConfigurationSource                  ][ 121] →→→ No URLs will be polled as dynamic configuration sources.
+10-12 20:35:36.743[W][      main][URLConfigurationSource                  ][ 121] →→→ No URLs will be polled as dynamic configuration sources.
+10-12 20:36:37.195[W][o-1-exec-1][JSONObject                              ][ 431] →→→ Tried to assign property settlePeroid:java.lang.Integer to bean of class com.smart.pay.channel.pojo.PaymentOrder
+10-12 20:38:38.726[W][      main][URLConfigurationSource                  ][ 121] →→→ No URLs will be polled as dynamic configuration sources.
+10-12 20:38:38.736[W][      main][URLConfigurationSource                  ][ 121] →→→ No URLs will be polled as dynamic configuration sources.
+10-12 20:40:29.747[W][o-1-exec-1][JSONObject                              ][ 431] →→→ Tried to assign property settlePeroid:java.lang.Integer to bean of class com.smart.pay.channel.pojo.PaymentOrder
+10-12 21:32:45.013[W][      main][URLConfigurationSource                  ][ 121] →→→ No URLs will be polled as dynamic configuration sources.
+10-12 21:32:45.021[W][      main][URLConfigurationSource                  ][ 121] →→→ No URLs will be polled as dynamic configuration sources.
+10-12 21:34:19.381[W][o-1-exec-1][JSONObject                              ][ 431] →→→ Tried to assign property settlePeroid:java.lang.Integer to bean of class com.smart.pay.channel.pojo.PaymentOrder

@@ -1,0 +1,78 @@
+11-03 00:00:44.295[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:01:44.296[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:02:43.929[I][oldUpdater][PeerAwareInstanceRegistryImpl           ][ 541] →→→ Current renewal threshold is : 8
+11-03 00:02:44.296[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:03:44.297[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:04:44.297[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:05:44.298[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:06:44.298[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:07:44.298[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:08:44.299[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:09:44.299[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:10:44.299[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:11:44.300[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:12:44.300[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:13:44.301[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:14:44.301[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:15:44.302[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:16:44.303[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:17:43.929[I][oldUpdater][PeerAwareInstanceRegistryImpl           ][ 541] →→→ Current renewal threshold is : 8
+11-03 00:17:44.303[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:18:44.304[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:19:44.304[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:20:44.305[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:21:44.305[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:22:44.306[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:23:44.306[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:24:44.306[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:25:44.307[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:26:44.308[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:27:44.308[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:28:44.308[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:29:44.309[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:30:44.309[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:31:44.310[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:32:43.930[I][oldUpdater][PeerAwareInstanceRegistryImpl           ][ 541] →→→ Current renewal threshold is : 8
+11-03 00:32:44.311[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:33:44.311[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:34:44.312[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:35:44.313[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:36:44.313[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:37:44.314[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:38:44.314[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:39:44.315[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:40:44.315[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:41:44.316[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:42:44.316[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:43:44.316[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:44:44.317[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:45:44.317[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:46:44.318[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:47:43.931[I][oldUpdater][PeerAwareInstanceRegistryImpl           ][ 541] →→→ Current renewal threshold is : 8
+11-03 00:47:44.318[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:48:44.319[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:49:44.320[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:50:44.320[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:51:44.320[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:52:44.320[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:53:44.320[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:54:44.375[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 54ms
+11-03 00:54:49.769[I][761-exec-6][AbstractInstanceRegistry                ][ 267] →→→ Registered instance SMARTMERCHANT/DESKTOP-T8UUSPI:smartmerchant:0 with status UP (replication=false)
+11-03 00:54:50.315[I][761-exec-7][AbstractInstanceRegistry                ][ 267] →→→ Registered instance SMARTMERCHANT/DESKTOP-T8UUSPI:smartmerchant:0 with status UP (replication=true)
+11-03 00:55:03.302[I][761-exec-1][AbstractInstanceRegistry                ][ 267] →→→ Registered instance SMARTPAYMENT/DESKTOP-T8UUSPI:smartpayment:0 with status UP (replication=false)
+11-03 00:55:03.812[I][761-exec-2][AbstractInstanceRegistry                ][ 267] →→→ Registered instance SMARTPAYMENT/DESKTOP-T8UUSPI:smartpayment:0 with status UP (replication=true)
+11-03 00:55:06.365[I][761-exec-6][AbstractInstanceRegistry                ][ 267] →→→ Registered instance SMARTRISK/DESKTOP-T8UUSPI:smartrisk:0 with status UP (replication=false)
+11-03 00:55:06.879[I][761-exec-7][AbstractInstanceRegistry                ][ 267] →→→ Registered instance SMARTRISK/DESKTOP-T8UUSPI:smartrisk:0 with status UP (replication=true)
+11-03 00:55:42.851[I][61-exec-10][AbstractInstanceRegistry                ][ 267] →→→ Registered instance SMARTCLEARING/DESKTOP-T8UUSPI:smartclearing:0 with status UP (replication=false)
+11-03 00:55:43.370[I][761-exec-3][AbstractInstanceRegistry                ][ 267] →→→ Registered instance SMARTCLEARING/DESKTOP-T8UUSPI:smartclearing:0 with status UP (replication=true)
+11-03 00:55:44.375[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:56:44.375[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:57:44.376[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:58:44.377[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 00:59:44.377[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 01:00:44.378[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 01:01:44.378[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 01:02:43.932[I][oldUpdater][PeerAwareInstanceRegistryImpl           ][ 541] →→→ Current renewal threshold is : 10
+11-03 01:02:44.379[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 01:03:44.379[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
+11-03 01:04:44.380[I][ctionTimer][AbstractInstanceRegistry                ][1254] →→→ Running the evict task with compensationTime 0ms
